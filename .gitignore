@@ -1,0 +1,48 @@
+# ============================================================
+#  Langent MCP - One-Click Kit  /  .gitignore
+#  저장소에는 .bat 3개 + 문서 + LICENSE 만 올립니다.
+#  설치 시 생성되는 것·로컬 전용 파일은 올리지 않습니다.
+# ============================================================
+
+# --- INSTALL.bat / RUN.bat 가 생성하는 것 (절대 커밋 금지) ---
+langent/          # 업스트림 소스 (설치 시 GitHub에서 clone — 번들 금지)
+venv/             # Python 가상환경
+workspace/        # 사용자 문서 (개인정보 가능 — 커밋 금지)
+data/             # ChromaDB 벡터 데이터
+logs/             # 로그
+
+# --- 생성되는 MCP 설정 (로컬 경로 포함 — 로컬 전용) ---
+mcp_config_py.json
+mcp_config_npx.json
+mcp_config_snippet.json
+
+# --- 비밀 / 환경설정 (Secrets / env - NEVER commit) ---
+.env
+*.env
+*.pem
+*.key
+*.pfx
+id_rsa
+
+# --- 로컬 개발 도구가 만든 산출물 (Local AI/dev tooling artifacts) ---
+.omc/
+.plugin-config/
+.pair-programming-session.md
+.complexity-log.md
+.todos-report.md/
+.browser-pilot/
+.remember/
+
+# --- Python 캐시 ---
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# --- OS / 편집기 잡파일 (OS / editor junk) ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
